@@ -49,3 +49,76 @@ nav a:hover {
   background: rgba(0, 0, 0, 0.3);
   transform: scale(1.1);
 }
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+section.mein {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 80px;
+}
+.welcome {
+  display: flex;
+  margin-bottom: 50px;
+}
+.welcome .a_img {
+  display: block;
+  width: 250px;
+  text-shadow: 0 0 100px 50px #763CAC;
+}
+.welcome .descpription {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.welcome .descpription .cue {
+  position: absolute;
+  top: -40px;
+  left: -40px;
+  font-size: 17px;
+  background: url(./Arrow.png) no-repeat;
+  background-size: 91px 81px;
+  background-position: -81px;
+  overflow: visible;
+}
+
+.welcome .descpription .cue::before {
+  content: "";
+  position: absolute;
+  width: 91px;
+  height: 81px;
+  left: -81px;
+  top: -10px;
+  background: url(./Arrow.png) no-repeat;
+  background-size: 91px 81px;
+  background-position: 0px 0px;
+}
+.welcome .descpription .q{
+font-size: 19px;
+text-decoration: underline;
+margin-bottom: 5px;
+}
+.welcome .descpription .profession{
+font-size: 50px;
+margin-bottom: 5px;
+}
+.welcome .descpription > p{
+font-size: 11px;
+}
+section.mein > h2{
+font-family: 50px;
+}
+section.mein > span{
+font-family: 21px;
+margin-bottom: 35px;
+}
+section.mein > p{
+font-family: 22px;
+}
