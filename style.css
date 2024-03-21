@@ -53,9 +53,9 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+  width: 100%;
 }
-section.mein {
+section {
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -68,7 +68,7 @@ section.mein {
 .welcome .a_img {
   display: block;
   width: 250px;
-  text-shadow: 0 0 100px 50px #763CAC;
+  text-shadow: 0 0 100px 50px #763cac;
 }
 .welcome .descpription {
   display: flex;
@@ -100,25 +100,84 @@ section.mein {
   background-size: 91px 81px;
   background-position: 0px 0px;
 }
-.welcome .descpription .q{
-font-size: 19px;
-text-decoration: underline;
-margin-bottom: 5px;
+.welcome .descpription .q {
+  font-size: 19px;
+  text-decoration: underline;
+  margin-bottom: 5px;
 }
-.welcome .descpription .profession{
-font-size: 50px;
-margin-bottom: 5px;
+.welcome .descpription .profession {
+  font-size: 50px;
+  margin-bottom: 5px;
 }
-.welcome .descpription > p{
-font-size: 11px;
+.welcome .descpription > p {
+  font-size: 11px;
 }
-section.mein > h2{
-font-family: 50px;
+section.mein > h2 {
+  font-size: 50px;
 }
-section.mein > span{
-font-family: 21px;
-margin-bottom: 35px;
+section.mein > span {
+  font-size: 21px;
+  margin-bottom: 35px;
 }
-section.mein > p{
-font-family: 22px;
+section.mein > p {
+  font-size: 15px;
+  width: 70%;
+}
+section.exp h3 {
+  font-size: 40px;
+  margin-bottom: 45px;
+}
+section.exp .exp_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 480px);
+  grid-template-rows: repeat(auto-fill, 150px);
+  gap: 20px;
+}
+section.exp .exp_list .work {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: rgb(19, 4, 40);
+  background: linear-gradient(
+    345deg,
+    rgba(19, 4, 40, 1) 10%,
+    rgba(56, 18, 109, 1) 48%,
+    rgba(38, 17, 69, 1) 84%
+  );
+  border-radius: 15px;
+  border-top: 2px solid #693B93;
+}
+section.exp .exp_list .work img{
+display: block;
+width: 100px;
+height: 100px;
+margin: 15px;
+margin-left: 50px;
+margin-right: 25px;
+}
+section.exp .exp_list .work .discription{
+display: flex;
+flex-direction: column;
+width: 45%;
+
+}
+section.exp .exp_list .work .discription button{
+display: flex;
+justify-content: center;
+align-items: center;
+background: #2c1250;
+border:1px solid #693B93;
+border-radius: 15px;
+color: #fff;
+width: 100px;
+height: 33px;
+font-size: 10px;
+}
+section.exp .exp_list .work .discription h4{
+display: flex;
+font-size: 25px;
+}
+section.exp .exp_list .work .discription p{
+display: flex;
+font-size: 10px;
 }
