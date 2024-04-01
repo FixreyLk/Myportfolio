@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Preahvihear&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -261,10 +262,12 @@ margin: 230px;
 }
 section.foor h3{  
 font-size: 25px;
+font-family: "Preahvihear", sans-serif;
 }
 section.foor p{
 margin: 70px;
 font-size: 15px;
+font-family: "Preahvihear", sans-serif;
 }
 section.foor a{
   padding: 30px;
